@@ -11,7 +11,6 @@ body {
     line-height: 1.7;
 }
 
-/* Klasa wrapper centruje tylko lewo/prawo, nie zeruje odstępów góra/dół */
 .wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +20,6 @@ body {
     padding-right: 20px;
 }
 
-/* Wyraźne odstępy góra/dół dla każdego działu */
 section {
     scroll-margin-top: 70px;
     padding-top: 60px;
@@ -36,7 +34,6 @@ section {
     letter-spacing: 1px;
 }
 
-/* Nawigacja */
 nav {
     position: sticky;
     top: 0;
@@ -62,7 +59,6 @@ nav {
     color: #0099ff;
 }
 
-/* Nagłówek (header) */
 .header {
     position: relative;
     height: 320px;
@@ -105,7 +101,6 @@ nav {
     color: #d1d5db;
 }
 
-/* Sekcja O zajęciach i zdjęcie */
 .about-us-info {
     margin-bottom: 35px;
     background-color: #222228;
@@ -117,12 +112,11 @@ nav {
     display: block;
     width: 100%;
     max-width: 500px;
-    margin: 35px auto 10px auto;
+    margin: 35px auto;
     border-radius: 8px;
     border: 2px solid #2d2d35;
 }
 
-/* Lista przedmiotów */
 .tematy {
     max-width: 550px;
     margin: 0 auto;
@@ -133,7 +127,6 @@ nav {
     margin-bottom: 14px;
 }
 
-/* Tabela cennika */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -154,7 +147,6 @@ td strong {
     color: #ffffff;
 }
 
-/* Kontakt i przycisk */
 .contact {
     text-align: center;
 }
@@ -189,7 +181,6 @@ td strong {
     background-color: #007acc;
 }
 
-/* Stopka (footer) */
 footer {
     margin-top: 70px;
     padding: 35px 10px;
